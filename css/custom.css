@@ -1,0 +1,509 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    margin: 0 auto;
+    width: 1140px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#headerSlider {
+    height: 651px;
+    background-color: #f25222;
+}
+#bg{
+    background-image: url(../images/map.png);
+    background-repeat: no-repeat;
+    height: 651px;
+}
+#infoFooter {
+    height: 530px;
+    background-color: white;
+}
+
+
+/*HEADER STARTS*/
+
+#header {
+    height: 150px;
+    padding: 20px 0;
+}
+
+#header .wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+#header .wrapper .logoCall {
+    display: flex;
+    justify-content: flex-start;
+}
+
+#header .wrapper .logoCall .logo {
+    height: 41px;
+    width: 157px;
+    padding-right: 30px;
+    margin-top: 10px;
+}
+
+#header .wrapper .logoCall .call {
+    width: 66px;
+    height: 30px;
+    padding-left: 30px;
+    border-left: 1px solid white;
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#header .wrapper .logoCall .call img {
+    width: 25px;
+    height: 24px;
+    margin-right: 8px;
+    margin-top: 3px;
+}
+
+#header .wrapper .logoCall .call .number {
+    font-size: 21.6px;
+    color: white;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+#header .wrapper .logoCall .call .lang {
+    font-family: arial, sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    color: white;
+}
+
+#header .wrapper .logoCall .call .sign {
+    color: white;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+#header .wrapper .docsCount {
+    margin-top: 0px;
+    text-align: right;
+    text-transform: uppercase;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+#header .wrapper .docsCount .found {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-right: 50px;
+}
+
+#header .wrapper .docsCount .given {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-right: 50px;
+}
+
+#header .wrapper .docsCount .lost {
+    color: black;
+    text-transform: none;
+    display: flex;
+    padding: 10px 30px;
+    font-size: 14px;
+    font-weight: bold;
+    background: #fbc222;
+    align-items: center;
+    border: 1px solid #fbc222;
+    border-radius: 3px;
+}
+
+#header .wrapper .docsCount .text {
+    font-size: 12px;
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+#header .wrapper .docsCount .number {
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+
+/*SLIDER STARTS*/
+
+#slider {
+    height: 312px;
+}
+
+#slider .wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+#slider .wrapper .service h1 {
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    font-size: 34px;
+}
+
+#slider .wrapper .service ul li {
+    list-style: none;
+    margin: 23px 0;
+    color: white;
+}
+
+#slider .wrapper .service ul li i {
+    color: #fbc222;
+    margin-right: 10px;
+}
+
+#slider .wrapper .searchBox {
+    height: 202px;
+    width: 282px;
+    padding: 30px 34px;
+    background-color: white;
+}
+
+#slider .wrapper .searchBox h1 {
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#slider .wrapper .searchBox ul li i {
+    color: #fbc222;
+    margin-right: 5px;
+}
+
+#slider .wrapper .searchBox ul li p {
+    font-size: 12px;
+}
+
+#slider .wrapper .searchBox ul li:first-child {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 15px;
+}
+
+#slider .wrapper .searchBox ul li select {
+    height: auto;
+    width: 280px;
+    border: 0;
+    padding-bottom: 10px;
+    font-size: 14px;
+}
+
+#slider .wrapper .searchBox ul li:last-child {
+    width: 282px;
+    height: 25px;
+    padding: 20px 0;
+    margin-top: 27px;
+    border-radius: 4px;
+    background-color: #fbc222;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+/*LAST STARTS*/
+
+#last {
+    height: auto;
+    background-color: #f5f5f5;
+}
+
+#last .wrapper {
+    padding: 50px 0;
+}
+
+#last .wrapper .heading h1 {
+    text-transform: uppercase;
+    text-align: center;
+    color: #191919;
+    font-size: 26px;
+    margin-top: 0;
+    margin-bottom: 50px;
+    font-weight: bold;
+}
+
+#last .wrapper .columns .row {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#last .wrapper .columns .row>div {
+    background-color: white;
+    width: 19%;
+    border-radius: 4px;
+    height: 90px;
+    padding: 20px 30px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#last .wrapper .columns .row div img {
+    margin-right: 15px;
+}
+
+#last .wrapper .columns .row div h1 {
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#last .wrapper .more input {
+    display: flex;
+    text-transform: uppercase;
+    font-weight: lighter;
+    font-size: 16px;
+    background-color: transparent;
+    justify-content: center;
+    margin: 0 auto;
+    width: 156px;
+    height: 36px;
+    padding: 1px 6px;
+    border: 1px solid #f25222;
+    border-radius: 4px;
+}
+
+
+/*INFO STARTS*/
+
+#info .wrapper {
+    padding: 70px 0;
+    height: 223px;
+    border-bottom: 1px solid #cecece;
+}
+
+#info .wrapper .row {
+    display: flex;
+    justify-content: space-between;
+}
+
+#info .wrapper .row div {
+    width: 360px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+#info .wrapper div:first-child {
+    margin-bottom: 20px;
+}
+
+
+/*FOOTER STARTS*/
+
+#footer .wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 0;
+}
+
+#footer .wrapper .logos {
+    display: flex;
+    justify-content: flex-start;
+}
+
+#footer .wrapper .logos img:first-child {
+    width: 150px;
+    height: 46px;
+    padding: 0 15px;
+}
+
+#footer .wrapper .logos img:last-child {
+    width: 115px;
+    height: 30px;
+    padding: 0 15px;
+}
+
+#footer .wrapper .contact {
+    display: flex;
+    justify-content: space-around;
+}
+
+#footer .wrapper .contact .call {
+    display: flex;
+    justify-content: flex-start;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 0 20px;
+}
+
+#footer .wrapper .contact .call img {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+
+#footer .wrapper .contact .letter {
+    display: flex;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 0 20px;
+    justify-content: flex-start;
+}
+
+#footer .wrapper .contact .letter img {
+    width: 23px;
+    height: 16px;
+    margin-right: 5px;
+}
+
+@media (min-width:1000px) and (max-width:1180px) {
+    .wrapper {
+        width: 960px;
+    }
+    #last .wrapper .columns .row {
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    #last .wrapper .columns .row>div {
+        background-color: white;
+        width: 43%;
+        border-radius: 4px;
+        height: 90px;
+        padding: 20px 30px;
+        margin-bottom: 15px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+@media (max-width:1000px) {
+    .wrapper{
+        width: 720px;
+    }
+    #headerSlider {
+        height: 750px;
+        background-color: #f25222;
+        background-repeat: no-repeat;
+    }
+    #bg{
+        /*display: none;*/
+        background-image: url(../images/map.png);
+        background-repeat: no-repeat;
+        height: 651px;
+    }
+    #header .wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    #header .wrapper .logoCall {
+        display: flex;
+        width: 100%;
+        justify-content: flex-start;
+    }
+    #header .wrapper .docsCount {
+        margin-top: 0px;
+        text-align: right;
+        text-transform: uppercase;
+        color: white;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #header .wrapper .docsCount .found {
+        display: none;
+        /*justify-content: flex-start;
+        align-items: center;
+        margin-right: 50px;*/
+    }
+
+    #header .wrapper .docsCount .given {
+        display: none;
+        /*justify-content: flex-start;
+        align-items: center;
+        margin-right: 50px;*/
+    }
+
+    #header .wrapper .docsCount .lost {
+        color: black;
+        text-transform: none;
+        display: flex;
+        padding: 15px 30px;
+        font-size: 14px;
+        font-weight: bold;
+        background: #fbc222;
+        align-items: center;
+        border: 1px solid #fbc222;
+        border-radius: 3px;
+        margin-top: 40px;
+    }
+    #slider .wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: baseline;
+    }
+    #slider .wrapper .searchBox {
+        height: 202px;
+        width: 100%;
+        padding: 30px 34px;
+        background-color: white;
+    }
+    #slider .wrapper .searchBox ul li select {
+        height: auto;
+        width: 100%;
+        border: 0;
+        padding-bottom: 10px;
+        font-size: 14px;
+    }
+    #slider .wrapper .searchBox ul li:last-child {
+        width: 100%;
+        height: 25px;
+        padding: 20px 0;
+        margin-top: 27px;
+        border-radius: 4px;
+        background-color: #fbc222;
+        text-align: center;
+        font-weight: bold;
+    }
+    #last .wrapper .columns .row {
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    #last .wrapper .columns .row>div {
+        background-color: white;
+        width: 40%;
+        border-radius: 4px;
+        height: 90px;
+        padding: 20px 30px;
+        margin-bottom: 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    #info .wrapper .row {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #info .wrapper .row div {
+        width: 360px;
+        text-align: center;
+        font-weight: 700;
+        font-size: 14px;
+    }
+
+}
